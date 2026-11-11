@@ -1,0 +1,4 @@
+# Runtime dependencies for Streamlit Community Cloud. Keep in step with pyproject.toml.
+anthropic>=0.39.0
+python-dotenv>=1.0.0
+streamlit>=1.46
