@@ -1,6 +1,6 @@
-# Lend to a Friend
+# Should You Lend a Friend?
 
-[![CI](https://github.com/adityaarakeri-max/lend-to-a-friend/actions/workflows/ci.yml/badge.svg)](https://github.com/adityaarakeri-max/lend-to-a-friend/actions/workflows/ci.yml)
+[![CI](https://github.com/adityaarakeri-max/should-you-lend-a-friend/actions/workflows/ci.yml/badge.svg)](https://github.com/adityaarakeri-max/should-you-lend-a-friend/actions/workflows/ci.yml)
 ![Python 3.11–3.14](https://img.shields.io/badge/python-3.11%E2%80%933.14-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
@@ -62,8 +62,8 @@ Claude calls are capped at 10 per visitor and 200 per day.
 ## Run it locally
 
 ```bash
-git clone https://github.com/adityaarakeri-max/lend-to-a-friend.git
-cd lend-to-a-friend
+git clone https://github.com/adityaarakeri-max/should-you-lend-a-friend.git
+cd should-you-lend-a-friend
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[app,dev]"
 cp .env.example .env     # optional: add ANTHROPIC_API_KEY for Claude advice

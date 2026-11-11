@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lend-to-a-friend"
+name = "should-you-lend-a-friend"
 version = "0.1.0"
 description = "Should you lend money to a friend? A quick check without bank statements or credit scores"
 readme = "README.md"
