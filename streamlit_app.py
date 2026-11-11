@@ -1,4 +1,4 @@
-"""Should I lend to my friend? Run with: streamlit run streamlit_app.py"""
+"""Should you lend a friend? Run with: streamlit run streamlit_app.py"""
 
 import datetime as dt
 import json
@@ -158,12 +158,12 @@ def how_it_works() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Should I lend to my friend?", page_icon=":material/handshake:")
+    st.set_page_config(page_title="Should you lend a friend?", page_icon=":material/handshake:")
     configure_api_key()
     st.session_state.setdefault("ai_calls", 0)
     st.session_state.setdefault("ai_texts", {})
 
-    st.title("Should I lend to my friend?")
+    st.title("Should you lend a friend?")
     st.caption(
         "Seven quick questions about things you already know. No bank statements or "
         "credit scores needed, and nothing you enter is stored."
